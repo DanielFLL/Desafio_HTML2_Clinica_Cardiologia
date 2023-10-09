@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        .footer table #Logo {
+            margin-right: 300px;
+            margin-left: 40px;
+        }
+        .content table {
+            font-size: 150%;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        .content table .logo {
+            margin-right: 30px;
+        }
+        .content p {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 120%;
+        }
+        .content hr {
+            border: 1px solid black;
+            margin-top: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="Pagina_Principal.html">Página Principal</a></li>
+                <li><a href="Sobre_Clinica.html">Sobre a Clínica</a></li>
+                <li><a href="Horario.html">Horário de Atendimento</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img height="100px" src="contato.png">
+            </div>
+    
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <table align="center">
+                    <tr>
+                        <td><img class="logo" height="40px" src="logo_tel.png"></td>
+                        <td>(11) 3045-7878</td>
+                    </tr>
+                    <tr>
+                        <td><img class="logo" height="40px" src="logo_whats.png"></td>
+                        <td>(11) 3045-7878</td>
+                    </tr>
+                </table>
+                <p><strong><u>Endereço</u>:</strong> R. Dom Joaquim de Melo, 335 - Parque da Mooca - São Paulo/SP - 03122-050.</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0311649521273!2d-46.60056492449223!3d-23.567324161811676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5953d91b133f%3A0x7622a7f12db9bb01!2sR.%20Dom%20Joaquim%20de%20Melo%2C%20335%20-%20Parque%20da%20Mooca%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2003122-050!5e0!3m2!1spt-BR!2sbr!4v1696877979367!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <p style="color: rgb(25, 110, 190);"><u>Fale Conosco</u>:</p>
+                <form method="post">
+                    <p>Nome: <input type="text"></p>
+                    <p>E-mail: <input type="email"></p>
+                    <p>Assunto: <input type="text"></p>
+                    <p>Mensagem:</p>
+                    <textarea rows="4" cols="50"></textarea><br>
+                    <button type="reset">Limpar</button><button type="submit">Enviar</button>
+                </form>
+                <hr>
+                <p><u><mark>Trabalhe Conosco</mark></u> - <small>(Envie seu currículo para)</small>: rhcardiomed@gmail.com</p>
+            </div>
+    
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+                <table border="0 px" border-spacing="100px">
+                    <tr>
+                        <td><img id="Logo" height="90" src="Logo_PNG.png" alt="Logo da clínica"></td>
+                        <td><img height="90" src="Contatos_Rodape.png" alt="Foto com os contatos"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        .footer table #Logo {
+            margin-right: 300px;
+            margin-left: 40px;
+        }
+        .main .header {
+            background-image: url(Fundo_Rosa_Claro.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .main .header #imagem {
+            margin-left: 20px;
+        }
+        .content table {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 140%;
+            border-style: solid;
+            border-inline: solid;
+        }
+        table thead {
+            background-color: black;
+            color: white;
+        }
+        
+        table tr:nth-child(even) {
+            background-color: rgba(211, 211, 211, 0.671);
+        }    
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="Pagina_Principal.html">Página Principal</a></li>
+                <li><a href="Sobre_Clinica.html">Sobre a Clínica</a></li>
+                <li><a href="Horario.html">Horário de Atendimento</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <img id="imagem" height="120px" src="Fundo_Horario.png">
+            </div>
+    
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Serviços</th>
+                            <th>Segunda a Sexta</th>
+                            <th>Sábado</th>
+                            <th>Domingo e Feriados</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>Consultas Cardiológicas Preventivas</th>
+                            <th>08:00 às 18:00</th>
+                            <th>08:00 às 12:00</th>
+                            <th>---</th>
+                        </tr>
+                        <tr>
+                            <th>Exames Diagnósticos Avançados</th>
+                            <th>08:00 às 18:00</th>
+                            <th>08:00 às 12:00</th>
+                            <th>---</th>
+                        </tr>
+                        <tr>
+                            <th>Reabilitação Cardíaca</th>
+                            <th>08:00 às 18:00</th>
+                            <th>08:00 às 12:00</th>
+                            <th>---</th>
+                        </tr>
+                        <tr>
+                            <th>Procedimentos Intervencionistas</th>
+                            <th>08:00 às 18:00</th>
+                            <th>08:00 às 12:00</th>
+                            <th>---</th>
+                        </tr>
+                        <tr>
+                            <th>Emergência</th>
+                            <th>24h</th>
+                            <th>24h</th>
+                            <th>24h</th>
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+    
+            <div class="footer">
+                <!-- Aqui vai o seu rodapé -->
+                <table border="0 px" border-spacing="100px">
+                    <tr>
+                        <td><img id="Logo" height="90" src="Logo_PNG.png" alt="Logo da clínica"></td>
+                        <td><img height="90" src="Contatos_Rodape.png" alt="Foto com os contatos"></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

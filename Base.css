@@ -1,0 +1,45 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #FFDAFE;
+    color: #6F0000;
+    padding: 10px 20px 0px;
+    font-size: 150%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu ul li {
+    margin-bottom: 20px;
+}
+.header {
+    background-color: #FFDAFE;
+    max-height: 150px;
+    min-height: 100px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: #6F0000;
+    max-height: 100px;
+}
